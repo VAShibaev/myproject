@@ -35,7 +35,7 @@ class my_middleware(object):
         top_str = "\t\t<div class='top'>Middleware TOP</div>\n".encode()
         
         bottom_position = -1
-        bottom_str = "\t\t<div class='bottom'>Middleware BOTTOM</div>\n".encode()
+        bottom_str = "\t\t<div class='botton'>Middleware BOTTOM</div>\n".encode()
         
         response = self.app(environ, start_response)
         for line in response:
